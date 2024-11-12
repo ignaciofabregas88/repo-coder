@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.anuncio {
+    background-color: rgb(104, 131, 131);
+    padding: 5px;
+}
+
+.anuncio p {
+    margin: 10px;
+    font-size: 10px;
+    color:black;
+    font-family: arial;
+    text-align: center;
+    transition: 2s;
+
+}
+
+.anuncio p:hover {
+    margin: 30px;
+    color: red;
+}
+
+header a:hover{
+    margin: 30px;
+    color: red;
+    font-size: 20px;
+}
+
+header {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black
+}
+
+header img {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40px;
+}
+
+header ul {
+    list-style-type: none;
+    display: none;
+}
+
+header nav ul a {
+    margin: 5px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(104, 131, 131);
+}
+
+footer img {
+    padding: 40px;
+}
+
+footer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px;
+}
+
+
+section h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 45px;
+    color: aliceblue;
+    text-align: center;
+}
+
+section img{
+    width: 500px;
+    margin: 50px 250px;
+}
+
+section p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+@media screen and (min-width: 550px){
+    header ul {
+        display: flex;
+    }
+}
+
+.grid-container{
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 175px 175px 175px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.grid1{
+    background-color: rgb(194, 194, 194);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid1 h2 {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.grid1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 51, 51);
+}
+
+.grid1 form {
+    margin: 35px;
+    text-align: center;
+}
+
+.grid1 form input {
+    color: rgb(18, 20, 20);
+    text-align: center;
+}
+
+.grid1 h3 {
+    margin: 15px;
+}
+
+.grid2{
+    background-color: rgb(104, 131, 131);
+    grid-column: 3/5;
+    grid-row: 1/4;
+}
+
+.grid2 img {
+    margin: 35px;
+    width: 80%;
+}
+
+.grid2 h2 {
+    margin: 35px;
+    text-align: center;
+}
+
+.grid2 p {
+    margin: 65px;
+    text-align: center;
+    color: rgb(165, 221, 221);
+}
+
+.grid3{
+    background-color: rgb(28, 29, 28);
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+.grid3 h2{
+    margin: 25px;
+}
+
+.imagen_1 {
+    width: 0px;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+
+    .anuncio{
+        background-color: rgb(104, 131, 131);
+        padding: 5px;
+
+        p {
+            margin: 10px;
+            font-size: 10px;
+            color:black;
+            font-family: arial;
+            text-align: center;
+            transition: 2s;
+                
+            :hover{
+                margin: 30px;
+                color: red;
+            }
+        }
+    }
+}
